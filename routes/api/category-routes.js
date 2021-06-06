@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
   }).then((data) => res.json(data))
     .catch((error) => {
       console.log(error);
-      res.status(500).json(error)
+      res.status(400).json(error)
     });
 
 });
@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
   }).then((data) => res.json(data))
     .catch((error) => {
       console.log(error);
-      res.status(500).json(error)
+      res.status(400).json(error)
     });
 });
 
