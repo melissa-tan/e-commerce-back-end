@@ -39,9 +39,16 @@ The program is a back end e-commerce product management system. A user is able t
     ```
     node server.js
     ```
+
+2. This is a full video tutorial on how to use the program! <br>
+    Please click on thumbnail to view video. </br>
+	[![E-Commerce Back End Full Demo](http://img.youtube.com/vi/72Hn-1tsQlw/0.jpg)](http://www.youtube.com/watch?v=72Hn-1tsQlw "E-Commerce Back End Full Demo-Click to Watch!")
+
+---
+![Screenshot of all possible routes](./assets/images/all-routes.png)
 **Products**
 - View all products (GET) "/api/products/"
-- View one product (GET) "/api/products/id"
+- View one product (GET) "/api/products/productID"
 - Add one product (POST) "/api/products/"
 ```
     {
@@ -51,7 +58,7 @@ The program is a back end e-commerce product management system. A user is able t
         "tagIds": [1]
     }
 ```
-- Update one product (PUT) "/api/products/id"
+- Update one product (PUT) "/api/products/productID"
 ```
     {
         "product_name": "PRODUCT NAME",
@@ -59,7 +66,7 @@ The program is a back end e-commerce product management system. A user is able t
         "stock": 0
     }
 ```
-- Delete one product (DEL) "/api/products/id"
+- Delete one product (DEL) "/api/products/productID"
 
 ---
 **Categories**
